@@ -93,17 +93,17 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .elemento1:checked ~ .galeria_contenedor {
-  transform: translateX(0px);
+ transform: translateX(0px); 
 }
 
 .elemento2:checked ~ .galeria_contenedor {
-  transform: translateX(-600px);
+ transform: translateX(-600px); 
 }
 
 .elemento3:checked ~ .galeria_contenedor {
-  transform: translateX(-1200px);
+ transform: translateX(-1200px); 
 }
-
+/*
 .elemento4:checked ~ .galeria_contenedor {
   transform: translateX(-1800px);
 }
@@ -115,6 +115,7 @@ font-family: 'Open Sans', sans-serif;
 .elemento6:checked ~ .galeria_contenedor {
   transform: translateX(-3000px);
 }
+*/
 
 .controles {
  width: 100%;
